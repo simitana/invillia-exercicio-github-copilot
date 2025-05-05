@@ -72,6 +72,7 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .form-group {
@@ -141,4 +142,30 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.participant-icon {
+  margin-right: 8px;
+  font-size: 1.2em;
+}
+
+.participant-name {
+  font-weight: bold;
+}
+
+.no-participants {
+  font-style: italic;
+  color: gray;
 }
